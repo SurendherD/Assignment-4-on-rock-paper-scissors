@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    padding:0%;
+    margin: 0%;
+    font-family: 'Poppins';
+}
+
+
+#heading{
+    position: absolute;
+    text-align: center;
+    color: rgb(90,37,192);
+    font-size: 50px;
+    font-weight:bold;
+    margin-left: 28%;
+    margin-top: 6%;
+}
+
+#bgImage{
+    position: absolute;
+}
+
+#gamelogo{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 12%;
+}
+
+.play-button{
+    position: absolute;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 70%;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.play-button>img{
+    width: 50px;
+}
